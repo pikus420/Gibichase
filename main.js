@@ -36,6 +36,7 @@ function addCards(length){
 }
 
 
+
 function showCard(data, new_index) {
     title.innerHTML = data.cards[new_index][0];
     type.innerHTML = data.cards[new_index][1];
@@ -48,6 +49,14 @@ function main(data) {
     const numberOfCards = data.cards.length;
     addCards(numberOfCards)
     shuffle(indexes);
+    if(indexes.length == 0){
+        addCards(numberOfCards);
+        shuffle(indexes);
+    }
+
+    const new_index = indexes.pop();
+    trash.push(new_index);
+    showCard(data, new_index)
 
     bottom.addEventListener("click", ()=>{
         if(indexes.length == 0){
