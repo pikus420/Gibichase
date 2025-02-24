@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: "Atkinson Hyperlegible Next", serif;
+    user-select: none;
 }
 
 main {
@@ -21,9 +22,9 @@ main {
 
 
 .title, .bottom {
-    opacity: 0.8;
-    background-color: blanchedalmond;
-    border: 4px gold solid;
+    opacity: 0.9;
+    background-color: #e8dfd1;
+    border: 4px #d8b800 solid;
 }
 
 .title {
@@ -38,6 +39,7 @@ main {
 .bottom {
     width: 85%;
     min-height: 30%;
+    font-size: 1.1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +47,7 @@ main {
 }
 
 .type{
-    border: 3px gold solid;
+    border: 3px #d8b800 solid;
     width: 80%;
     margin-bottom: 15px;
     font-size: 1.3rem;
