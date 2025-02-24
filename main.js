@@ -42,7 +42,7 @@ function showCard(data, new_index) {
     type.innerHTML = data.cards[new_index][1];
     desc.innerHTML = data.cards[new_index][2];
     chaos.innerHTML = data.cards[new_index][3];
-    back.style.backgroundImage = "img/"+ data.cards[new_index][4];
+    back.style.backgroundImage = "url('img/"+ data.cards[new_index][4] + "')";
 }
 
 function main(data) {
