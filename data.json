@@ -1,0 +1,9 @@
+{
+  "cards": [
+    ["placeholder1", "Uniwersum - placeholder1", "Wszyskie istoty i kreatury mają zapierdalanie i furia atk.", "Na chaosie: Każdy gracz wrzuca trzy górne karty ze swojej talii do Shadow Realmu. Następnie mogą zagrać jedną z nich w tej turze.", "img.png"],
+    ["placeholder2", "Uniwersum - placeholder2", "Każdy gracz traci 2 życia i dobiera dodatkową kartę na swoim Mudkipie.", "Na chaosie: Każdy gracz poświęca istotę. Jeżeli nie mogą, tracą zamiast tego 5 życia.", "img.png"],
+    ["placeholder3", "Uniwersum - placeholder2", "Istoty i kreatury zawsze atakują jeżeli mogą. Gracze nie mogą się leczyć.", "Na chaosie: Stwórz dwie istoty żetony 3/1 z trampkami i zapierdalaniem. Na końcu następnej tury trafiają do Shadow Realmu", "img.png"],
+    ["placeholder4", "Uniwersum - placeholder2", "Na końcu każdej tury, każdy gracz poświęca kartę którą kontrolują.", "Na chaosie: Każdy gracz wrzuca do Shadow Realmu kartę ze swojej ręki, następnie dobierają kartę.", "img.png"],
+    ["placeholder5", "Uniwersum - placeholder2", "Zaklęcia kosztują o 2 feny mniej. Gdy gracz zagrywa zaklęcie, może je skopiować. Mogą wtedy wybrać nowy cel dla kopii.", "Na chaosie: Każdy gracz może zagrać zaklęcie z ich Grobu bez jego kosztu. Następnie karta trafia do Shadow Realmu.", "img.png"]
+  ]
+}
