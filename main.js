@@ -77,3 +77,23 @@ function main(data) {
     })
 }
 
+function rotatePage() {
+    if (window.innerHeight > window.innerWidth) {
+        document.body.style.transform = "rotate(90deg)";
+        document.body.style.transformOrigin = "top left";
+        document.body.style.width = window.innerHeight + "px";
+        document.body.style.height = window.innerWidth + "px";
+        document.body.style.overflow = "hidden";
+        document.body.style.position = "absolute";
+        document.body.style.top = (window.innerWidth - window.innerHeight) / 2 + "px";
+        document.body.style.left = (window.innerHeight - window.innerWidth) / 2 + "px";
+    } else {
+        document.body.style.transform = "";
+        document.body.style.position = "";
+        document.body.style.width = "";
+        document.body.style.height = "";
+    }
+}
+
+window.addEventListener("resize", rotatePage);
+window.addEventListener("load", rotatePage);
