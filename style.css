@@ -46,6 +46,10 @@ main {
     border-radius: 5px;
 }
 
+.bottom p {
+    margin: 6px;
+}
+
 .type{
     border: 3px #d8b800 solid;
     width: 80%;
@@ -56,3 +60,22 @@ main {
     border-radius: 7px;
 }
 
+@media only screen and (max-width: 600px) {
+    main {
+      border: none;
+      box-sizing: content-box;
+    }
+
+    .title, .bottom {
+        width: 100%;
+        background-color: #e8dfd1;
+        border-top: 4px #d8b800 solid;
+        border-bottom: 4px #d8b800 solid;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+    }
+    
+
+
+  }
