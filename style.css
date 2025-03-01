@@ -30,7 +30,7 @@ main {
 .title {
     width: 85%;
     min-height: 4%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     border-radius: 5px;
@@ -38,8 +38,8 @@ main {
 
 .bottom {
     width: 85%;
-    min-height: 30%;
-    font-size: 1.1rem;
+    min-height: 25%;
+    font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,19 +48,20 @@ main {
 
 .bottom p {
     margin: 6px;
+    text-align: center;
 }
 
 .type{
     border: 3px #d8b800 solid;
     width: 80%;
     margin-bottom: 15px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     display: flex;
     justify-content: center;
     border-radius: 7px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     main {
       border: none;
       box-sizing: content-box;
@@ -75,7 +76,17 @@ main {
         border-right: none;
         border-radius: 0;
     }
-    
 
+    .type {
+        font-size: 1.3rem;
+    }
+
+    .bottom {
+        font-size: 1.1rem;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+    }
 
   }
